@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>dujunYeah！</title>
+  <subtitle>怕什么真理无穷，进一步自有一步的惊喜</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://yoursite.com/"/>
+  <updated>2016-10-12T16:31:50.347Z</updated>
+  <id>http://yoursite.com/</id>
+  
+  <author>
+    <name>JunyanDu</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>我的生信学习计划</title>
+    <link href="http://yoursite.com/2016/10/12/my-study-plan/"/>
+    <id>http://yoursite.com/2016/10/12/my-study-plan/</id>
+    <published>2016-10-12T10:16:03.000Z</published>
+    <updated>2016-10-12T16:31:50.347Z</updated>
+    
+    <content type="html"><![CDATA[<p>转眼进实验室已经1个多月了，但是感觉自己并没有什么进步。看了很多生信大神的博客和论坛，我把自己目前的状况和学习计划梳理了一下。</p>
+<h2 id="我会什么"><a href="#我会什么" class="headerlink" title="我会什么"></a>我会什么</h2><h3 id="Linux，R，Python"><a href="#Linux，R，Python" class="headerlink" title="Linux，R，Python"></a>Linux，R，Python</h3><p>本学期开学从图书馆借了3本书，linux，R，bioconductor，三本书都是草草翻过了前几章基础部分。只能算“在电脑上装了软件和虚拟器，知道怎么打开”……遇到不懂的问题从说明文档中解决，google，<strong>但是</strong>学习的进程很缓慢。Python姜毅师兄开组会的时候讲了一些基础，基本的函数和语句还是能懂。<strong>但是</strong>涉及接口，数据结构什么的完全理解不能🙄</p>
+<h3 id="生物信息学知识"><a href="#生物信息学知识" class="headerlink" title="生物信息学知识"></a>生物信息学知识</h3><p>北大的生物信息学MOOC看了1/3，因为懒惰又半途而废了。大三下学期学过的统计学算是基础不错，但是一些概念要经常复习。选修过基因组学，测序的基础知识稍微复习一下可以理解。</p>
+<h3 id="生物基础知识"><a href="#生物基础知识" class="headerlink" title="生物基础知识"></a>生物基础知识</h3><p>分子生物学，细胞生物学，遗传学的知识都是些应试的死板记忆，只能说比外行懂得多，能看懂综述和paper！实验技能也不行，在之前的实验室做的分析化学方向，分子和细胞的实验可以说完全没碰过！</p>
+<h3 id="文献查找和管理"><a href="#文献查找和管理" class="headerlink" title="文献查找和管理"></a>文献查找和管理</h3><p>pubmed，sci-hub，google scholar，nature.com找到了不少lncRNAs的综述，还有最近新点的技能，会用Endnote对付大量的文献了！但是文献管理还比较乱，找的文献质量也参差不齐。 </p>
+<h2 id="我欠缺什么"><a href="#我欠缺什么" class="headerlink" title="我欠缺什么"></a>我欠缺什么</h2><h3 id="数据格式"><a href="#数据格式" class="headerlink" title="数据格式"></a>数据格式</h3><p>基础数据格式：fastq, fasta, sam, bam, vcf, gff, gtf, bed, MAF……除了fasta，其他完全没接触过</p>
+<h3 id="数据库"><a href="#数据库" class="headerlink" title="数据库"></a>数据库</h3><p>基础数据库(<strong>NCBI</strong>, ENSEMBL,<strong>UCSC</strong> , CGHub)<br>高级数据库(TCGA, CCLE, GTEx, IMGT, TIGR, ICGC, GWAS, COSMIC, ExAC, 1000genome, hapmap, ENCODE,<strong> OMIN</strong>, uniprot, proteinatlas) (HPO, MGI, DO, GeneSigDB, MSigDB, Gene2MeS)<br>功能数据库( <strong>KEGG</strong>, <strong>GO</strong>, Reactome, BioCarta, DrugBank, <strong>dbSNP</strong>, dbGAP, dbNSFP, pFAM, SMART)<br>蛋白质相互作用数据库PPI(BIND, STRING, DIP, MINT, HPRO, bioGRID)   </p>
+<p>上面的数据库只知道加粗的，其他的没有用过（见都没见过🙄）</p>
+<h3 id="生物信息分析软件的安装与使用"><a href="#生物信息分析软件的安装与使用" class="headerlink" title="生物信息分析软件的安装与使用"></a>生物信息分析软件的安装与使用</h3><p><strong>blast+</strong>/Trimmomatic/FastQC/bowtie2/bwa/Glimmer3/circos   </p>
+<p>只在NCBI上用过blast  </p>
+<h2 id="我的计划"><a href="#我的计划" class="headerlink" title="我的计划"></a>我的计划</h2><h3 id="熟悉数据分析的workflow"><a href="#熟悉数据分析的workflow" class="headerlink" title="熟悉数据分析的workflow"></a>熟悉数据分析的workflow</h3><p>多看综述和其他人分享的教程，做好笔记！遇到问题问学长学姐，切忌闭门造车！</p>
+<h3 id="Linux"><a href="#Linux" class="headerlink" title="Linux"></a>Linux</h3><p><strong>准备时间：3周</strong><br>坚持跟着教程学，记笔记。掌握常用的命令，<strong>每天1个小任务</strong>！  </p>
+<h3 id="R"><a href="#R" class="headerlink" title="R"></a>R</h3><p><strong>准备时间：5周</strong><br>参考MOOC和<a href="http://www.bio-info-trainee.com" target="_blank" rel="external">生信菜鸟团</a>博客上的内容学习，bioconductor一边实战一边学，同时一边复习统计学的知识。  </p>
+<h3 id="Python"><a href="#Python" class="headerlink" title="Python"></a>Python</h3><p><strong>准备时间：4周</strong><br><strong>每周1个小项目</strong>，不懂就去问姜毅师兄。  </p>
+<h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p> 读文献，写笔记，勤总结！</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;转眼进实验室已经1个多月了，但是感觉自己并没有什么进步。看了很多生信大神的博客和论坛，我把自己目前的状况和学习计划梳理了一下。&lt;/p&gt;
+&lt;h2 id=&quot;我会什么&quot;&gt;&lt;a href=&quot;#我会什么&quot; class=&quot;headerlink&quot; title=&quot;我会什么&quot;&gt;&lt;/a&gt;我会什
+    
+    </summary>
+    
+      <category term="学习规划" scheme="http://yoursite.com/categories/%E5%AD%A6%E4%B9%A0%E8%A7%84%E5%88%92/"/>
+    
+    
+      <category term="总结" scheme="http://yoursite.com/tags/%E6%80%BB%E7%BB%93/"/>
+    
+      <category term="计划" scheme="http://yoursite.com/tags/%E8%AE%A1%E5%88%92/"/>
+    
+  </entry>
+  
+</feed>
